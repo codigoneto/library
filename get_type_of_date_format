@@ -1,8 +1,0 @@
-<?php
-  function get_type_of_date_format($date = null)
-  {
-    if($date){
-      $parts = explode('/', $date);
-      $total_parts = count($parts);
-    }
-  }
